@@ -1,0 +1,26 @@
+{
+  "name": "2-Tail-CSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "prod": "npm run prod",
+    "watch": "npm run development -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "cssnano": "*",
+    "npm-watch": "^0.7.0",
+    "prod": "^1.0.1",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  }
+}
